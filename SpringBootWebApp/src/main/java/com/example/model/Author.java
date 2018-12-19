@@ -12,7 +12,6 @@ import javax.persistence.Table;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
-@EntityScan()
 @Entity
 @Table
 public class Author {
@@ -50,13 +49,13 @@ public class Author {
 		this.lastName = lastName;
 	}
 
-//	public Set<Book> getBooks() {
-//		return books;
-//	}
-//
-//	public void setBooks(Set<Book> books) {
-//		this.books = books;
-//	}
+	public Set<Book> getBooks() {
+		return books;
+	}
+
+	public void setBooks(Set<Book> books) {
+		this.books = books;
+	}
 	
 	
 }
