@@ -1,0 +1,1 @@
+Insert into AUTHOR (FIRST_NAME,LAST_NAME) values('SAMUYA','MAHAPATRA')
